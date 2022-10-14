@@ -22,3 +22,71 @@ body {
     font-weight: 400;
 }
 
+.decors {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -666;
+}
+
+nav {
+    padding: 0 140px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    margin: 0 40px;
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    background-color: #F1A501;
+    height: 60px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+button a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header {
+    padding: 0 140px;
+}
+
+header h2 {
+    color: #DF6951;
+}
+
+header h1 {
+    font-size: 89px;
+    font-family: 'Volkhov', serif;
+}
+
+header p {
+    width: 450px;
+}
+
+.bigBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.smallBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.smallBox-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
