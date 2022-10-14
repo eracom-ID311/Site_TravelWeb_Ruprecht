@@ -1,0 +1,24 @@
+/* Poppins Thin Italic
+font-family: poppins, sans-serif;
+font-weight: 100-900;
+font-style: italic;
+
+
+Poppins Thin
+font-family: poppins, sans-serif;
+font-weight: 100-900;
+font-style: normal; */
+
+/* font-family: 'Volkhov', serif;
+font-weight: 400&700; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+}
+
