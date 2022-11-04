@@ -49,13 +49,17 @@ nav a:hover {
     border-radius: 10px;
 }
 
+h1 {
+    font-family: 'Volkhov', serif;
+}
+
 a {
     color: black;
     text-decoration: none;
 }
 
 b {
-    text-decoration: underline;
+    text-decoration: underline #DF6951;
 }
 
 p {
@@ -86,11 +90,31 @@ header h2 {
 
 header h1 {
     font-size: 60px;
-    font-family: 'Volkhov', serif;
+
 }
 
 header p {
     width: 450px;
+}
+
+section h2 {
+    color:#FFA90F ;
+    font-weight: 400;
+}
+
+section h1 {
+    font-size: 50px;
+}
+
+section {
+    text-align: center;
+    background-image: url(../img/decorationgrille.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.titleCategory {
+    margin-bottom: 10px;
 }
 
 .bigBox {
@@ -112,5 +136,18 @@ header p {
 
 .debug {
     margin-bottom: -40px;
+}
+
+.icone {
+    width: 92px;
+    margin: 20px 0;
+}
+
+.smallBoxCategory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 267px;
+    padding: 30px 50px;
 }
 
