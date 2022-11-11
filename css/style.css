@@ -143,11 +143,23 @@ section {
     margin: 20px 0;
 }
 
+.bigBoxCategory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
 .smallBoxCategory {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 267px;
     padding: 30px 50px;
+    border-radius: 36px;
+}
+
+.smallBoxCategory:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
