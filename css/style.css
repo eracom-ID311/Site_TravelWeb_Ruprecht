@@ -97,6 +97,10 @@ header p {
     width: 450px;
 }
 
+section {
+    text-align: center;
+}
+
 section h2 {
     color:#FFA90F ;
     font-weight: 400;
@@ -106,7 +110,7 @@ section h1 {
     font-size: 50px;
 }
 
-section {
+.decorationCross {
     text-align: center;
     background-image: url(../img/decorationgrille.png);
     background-repeat: no-repeat;
@@ -161,5 +165,9 @@ section {
 
 .smallBoxCategory:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bigBox-destination {
+    margin-top: 50px;
 }
 
