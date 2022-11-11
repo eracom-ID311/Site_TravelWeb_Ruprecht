@@ -171,3 +171,17 @@ section h1 {
     margin-top: 50px;
 }
 
+.smallBoxFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.txtSmall {
+    font-size: 13px;
+}
+
+.txtSmall-copyright {
+    text-align: center;
+    margin: 50px 0;
+}
+
