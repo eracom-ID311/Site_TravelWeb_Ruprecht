@@ -168,7 +168,7 @@ section h1 {
 }
 
 .bigBox-destination {
-    margin-top: 50px;
+    margin: 50px 30px;
 }
 
 .smallBoxFooter {
@@ -193,17 +193,47 @@ section h1 {
 }
 
 figcaption {
-    background-color: red;
+    background-color: white;
     width: 100%;
-
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 24px 24px;
 }
+
+figure {
+    position: relative;
+
+  }
+
+figure img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+  }
 
 figure h1 {
     font-size: 20px;
 }
 
+.nav {
+    width: 10%;
+}
+
 .smallBoxCaption {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.smallBoxCaption-nav {
+    justify-content: left;
+    padding-left: 30px;
+}
+
+.calltoaction {
+    color: #6246E5;
 }
 
